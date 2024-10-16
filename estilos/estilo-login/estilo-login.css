@@ -1,0 +1,181 @@
+@charset "utf-8";
+body {
+	line-height: 1;
+}
+#container {
+	width: 524px;
+	height: 267px;
+	text-align: left;
+	font-family: Verdana, Arial;
+	font-weight: normal;
+	font-size: 12px;
+	color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Formulario{
+	background: url(../../images/form-bg.png) top left no-repeat;
+	width: 524px;
+	height: 262px;
+	padding-top: 1px;
+}
+.Titulos{
+	width: 380px;
+	float: left;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	text-align: left;
+}
+#Titulo1{
+	width: 470px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: -10px;
+}
+.username-text {
+	width: 190px;
+	float: left;
+	margin-left: 40px;
+}
+#nombredui {
+	width: 250px;
+	float: left;
+	margin-left: 90px;
+	margin-top: 2px;
+	margin-bottom: -2px;
+}
+.password-text {
+	width: 290px;
+	float: left;
+	margin-left: 0px;
+}
+.username-field {
+	width: 168px;
+	height: 38px;
+	float:left;
+	margin-top: 10px;
+	margin-left: 35px;
+	background: url(../../images/username-field.png) center left no-repeat;
+}
+.username-field:hover {
+	background: url(../../images/username-field-hover.png) center left no-repeat;
+}
+.password-field {
+	width: 280px;
+	height: 38px;
+	float:left;
+	margin-top: 10px;
+	margin-left: 22px;
+	background: url(../../images/password-field.png) center left no-repeat;
+}
+.password-field:hover {
+	background: url(../../images/password-field-hover.png) center left no-repeat;	
+}
+#username,#password{
+	width: 120px;
+	height: 16px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: Verdana, Arial;
+	font-size: 16px;
+	color: #2d2d2d;
+	background: transparent;
+	border: 0;
+}
+
+#duirededor{
+	width: 168px;
+	height: 38px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 135px;
+	background: url(../../images/username-field.png) center left no-repeat;
+}
+#duirededor:hover {
+	background: url(../../images/username-field-hover.png) center left no-repeat;
+}
+.forgot-usr-pwd {
+	width: 360px;
+	float: left;
+	margin-top: 5px;
+	color: #cccccc;
+	line-height: 24px;
+	margin-right: 27px;
+	margin-left: 33px;
+}
+
+.forgot-usr-pwd a {
+	color: #cccccc;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.forgot-usr-pwd a:hover, .forgot-usr-pwd a:focus {
+	text-decoration: underline;
+}
+
+#Entrar {
+	width: 95px;
+	height: 73px;
+	float: left;
+	margin-left: 0px;
+	font-family: Verdana, Arial;
+	font-size: 24px;
+	color: #ffffff;
+	background: transparent;
+	border: 0;
+	margin-top: -45px;
+}
+
+#Entrar:hover, #Entrar:focus {
+	background: url(../../images/go-hover.png) top left no-repeat;
+}
+#Aceptar {
+	width: 95px;
+	height: 73px;
+	float: left;
+	font-family: Verdana, Arial;
+	font-size: 22px;
+	color: #ffffff;
+	background: transparent;
+	border: 0;
+	margin-top: -95px;
+	margin-left: 378px;
+}
+
+#Aceptar:hover, #Aceptar:focus {
+	background: url(../../images/go-hover.png) top left no-repeat;
+}
+#imagen{
+	margin-left: 130px;
+	margin-top: -17px;
+	}
+#CampoDuiA,#CampoNombreA,#CampoApellidoA,#CampoNicknameA,#CampoPasswordA,#CampoSexoA{
+	width: 100px;
+	}
+input,select{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	-ms-border-radius: 5px 5px 5px 5px;
+	}	
+#CampoTipo{
+	width: 130px;
+	}
+#e{
+	width: 300px;
+	margin-right: 110px;
+	text-align: left;
+	   }
+.actualizararial {
+	font-size: 14px;
+	text-align: left;
+}
+#listausuarios{
+	width: 350px;
+	height: 90px;
+	}

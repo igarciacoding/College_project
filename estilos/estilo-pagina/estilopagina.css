@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+#Cuerpo{
+	background-color: #88B8FF;
+	background-position: center center;	
+	}
+#Cabecera{
+	background-image: url(../../images/Cabecera.jpg);
+	width: 950px;
+	height: 215px;
+	background-repeat: no-repeat;
+	border-radius: 20px 20px 0px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+	}
+#PiePagina{
+	background-image: url(../../images/PiePagina.jpg);
+	width: 950px;
+	height: 130px;
+	background-repeat: no-repeat;
+	border-radius: 0px 0px 20px 20px;
+	margin-right: auto;
+	margin-left: auto;
+	}	
+#contenedor{
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../../images/FondoModificar.jpg);
+	background-repeat: repeat;
+	}

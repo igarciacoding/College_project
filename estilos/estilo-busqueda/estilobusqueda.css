@@ -1,0 +1,124 @@
+@charset "utf-8";
+	*{
+	margin: 0;
+	padding: 0;
+}
+#conten{
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../../images/FondoModificar.jpg);
+	background-repeat: repeat;
+	}
+table{
+	width: 600px;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.8);
+	font-family: "Times New Roman", Times, serif;
+	margin-right: auto;
+	margin-left: auto;
+	}	
+input,select{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	-ms-border-radius: 5px 5px 5px 5px;
+	}
+	
+#especialidadoprofesion,#universidadoinstitucion,#ListaPDF,#button,#PDF,#Eliminar,#Inicial,#Final{
+	width: 150px;
+	}
+.fechaplazas{
+	width: 590px;
+	}
+.comision{
+	width: 200px;
+	}
+.cargos{
+	width: 383px;
+	}
+.fechaspruebas{
+	width: 142px;
+	}					
+#listausuarios{
+	width: 430px;
+	height: 250px;
+	}
+#CampoCondicion,#CampoDepartamento{
+	width: 150px;
+	}		
+.BordeSuperior{
+	border-radius:10px 10px 0px 0px;
+	-moz-border-radius:10px 10px 0px 0px;
+	-webkit-border-radius:10px 10px 0px 0px;
+	-o-border-radius:10px 10px 0px 0px;
+	-ms-border-radius:10px 10px 0px 0px;
+	background: #65a9d7;
+	background: gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -moz-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -ms-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -o-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: linear-gradient(top, #3e779d, #65a9d7);
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	}
+.Botones {
+	border-top: 2px solid #96d1f8;
+	border-bottom: 2px solid #96d1f8;
+	border-left: 2px solid #96d1f8;
+	border-right: 2px solid #96d1f8;
+	background: #65a9d7;
+	background: gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -moz-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -o-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: -ms-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	background: linear-gradient(top, #3e779d, #65a9d7);
+	background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	padding: 5px 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-o-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-ms-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	-moz-text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	-webkit-text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	-o-text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	-ms-text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: white;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	vertical-align: middle;
+   }
+  .Botones:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+  .Botones:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   #CampoListaTelefono{
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	width: 80px;
+	}	
